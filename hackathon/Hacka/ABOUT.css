@@ -1,0 +1,39 @@
+body {
+    background: url(images/architecture-art-black-and-white-672655.jpg);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-origin: inherit;
+    background-attachment: fixed;
+
+  }
+
+h1 {
+    font-family: 'Fascinate Inline';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 73px;
+    letter-spacing: 0.02em;
+    position: absolute;
+    text-align: center;
+width: 448px;
+height: 71px;
+left: 167px;
+top: 24px;
+color: #FFFAFA;
+    
+}  
+
+#rectangle {
+    position: absolute;
+width: 596px;
+height: 367px;
+left: 73px;
+top: 127px;
+
+background: rgba(196, 196, 196, 0.46);
+border: 1px solid #000000;
+box-sizing: border-box;
+filter: blur(4px);
+}
