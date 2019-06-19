@@ -45,6 +45,21 @@ function getConnected() {
     })
 }
 
+// function weatherAsk() {
+//     input = window.document.getElementById('city').value;
+//     // var temp1 = myJson.main.temp
+//     var fetchURL = url += input += apiKey += imp;
+//     fetch(fetchURL)
+//         .then(function (response) {
+//             return response.json()
+//         })
+//         .then(function (myJson) {
+//             console.log(JSON.stringify(myJson));
+
+//             window.document.getElementById('temp').innerHTML = "Temperature in Your City: <br>" + JSON.stringify(myJson.main.temp);
+//         });
+// }
+
 app.get('/hack_profiles/:hack_id', (req, res) => {
 
     const queryString = "SELECT * FROM hack_profiles WHERE hack_id = ?"
@@ -53,14 +68,17 @@ app.get('/hack_profiles/:hack_id', (req, res) => {
 
     const connection = getConnected();
 
-
-
-
     connection.query(queryString, [hid], (err, rows, fields) => {
         console.log("I think it fetched")
         res.json(rows)
     });
+})
 
+app.get('/hack_profiles/', (req, res) => {
+    const queryString = "SELECT * FROM hack_profiles"
+    const connection = getConnected()
 
-
+    connection.query(queryString, (err, rows, fields) => {
+        res.json(rows)
+    })
 })
