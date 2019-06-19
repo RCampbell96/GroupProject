@@ -20,10 +20,11 @@ app.post('/hack_profiles_create', (req, res) => {
     const emailAddress = req.body.create_email_address
     const location = req.body.create_location
     const description = req.body.create_description
+    const address = req.body.create_address
     console.log("First name: " + firstName)
 
-    const queryString1 = "INSERT INTO hack_profiles (hack_first_name, hack_last_name, hack_email_address, hack_location, hack_description) VALUES (?, ?, ?, ?, ?)"
-    getConnected().query(queryString1, [firstName, lastName, emailAddress, location, description], (err, results, fields) => {
+    const queryString1 = "INSERT INTO hack_profiles (hack_first_name, hack_last_name, hack_email_address, hack_location,hack_description, hack_address) VALUES (?, ?, ?, ?, ?, ?)"
+    getConnected().query(queryString1, [firstName, lastName, emailAddress, location, description, address], (err, results, fields) => {
         if (err) {
             console.log("Failed to insert a new user: " + err)
             // res.sendStatus(500)

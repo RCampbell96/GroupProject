@@ -2,14 +2,15 @@ const url = 'http://localhost:3013/'
 
 // let rec = document.createElement('rectangle');
 let rect = document.getElementById('rectangle')
-
+let rect1 = document.getElementById('rectangle1')
 
 fetch(url + 'hack_profiles/')
     .then(res => res.json())
     .then(data => {
         console.log(data)
-        for(i=0;i<data.length;i++)  
-            rect.append(' - ' +  data[i].hack_description + " - " +data[i].hack_location + ' ') 
+        for(i=0;i<data.length;i++)  {
+            rect.append(' - ' +  data[i].hack_description ) + '/n'
+            rect1.append(' - '+ data[i].hack_location )}
             // document.body.appendChild(rect).innerHTML = JSON.stringify(data[i].hack_description) + '<br>' + JSON.stringify(data[i].hack_location)
            /* window.document.getElementById('rectangle').innerHTML = JSON.stringify(data[i].hack_description) + '<br>' + JSON.stringify(data[i].hack_location) */
     })
