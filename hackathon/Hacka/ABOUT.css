@@ -8,11 +8,11 @@ body {
 
   }
 
-h1 {
+#hckdes {
     font-family: 'Fascinate Inline';
     font-style: normal;
     font-weight: 900;
-    font-size: 55px;
+    font-size: 44px;
     line-height: 73px;
     letter-spacing: 0.02em;
     position: absolute;
@@ -20,6 +20,23 @@ h1 {
 width: 448px;
 height: 71px;
 left: 167px;
+top: 24px;
+color: #FFFAFA;
+    
+}  
+
+#hckloc {
+    font-family: 'Fascinate Inline';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 73px;
+    letter-spacing: 0.02em;
+    position: absolute;
+    text-align: center;
+width: 448px;
+height: 71px;
+left: 740px;
 top: 24px;
 color: #FFFAFA;
     

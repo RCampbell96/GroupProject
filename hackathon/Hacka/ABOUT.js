@@ -9,8 +9,8 @@ fetch(url + 'hack_profiles/')
     .then(data => {
         console.log(data)
         for(i=0;i<data.length;i++)  {
-            rect.append(' - ' +  data[i].hack_description ) + '/n'
-            rect1.append(' - '+ data[i].hack_location )}
+            rect.append('   ' + data[i].hack_id + ") " + data[i].hack_description )
+            rect1.append('   ' + data[i].hack_id + ") " + data[i].hack_location + " / " + data[i].hack_address)}
             // document.body.appendChild(rect).innerHTML = JSON.stringify(data[i].hack_description) + '<br>' + JSON.stringify(data[i].hack_location)
            /* window.document.getElementById('rectangle').innerHTML = JSON.stringify(data[i].hack_description) + '<br>' + JSON.stringify(data[i].hack_location) */
     })

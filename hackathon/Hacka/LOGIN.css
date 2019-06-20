@@ -1,0 +1,125 @@
+body {
+    background: url(../images/tall-skyscrapers-view-from-below-vintage-edit-picjumbo-com.jpg);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+
+
+#rectangle {
+position: absolute;
+width: 310px;
+height: 71px;
+left: 870px;
+top: 145px;
+z-index: -1;
+display: flex;
+
+background: rgba(196, 196, 196, 0.83);
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+h1 {
+    position: absolute;
+    width: 270px;
+    height: 63px;
+    left: 890px;
+    top: 118px;
+
+    font-family: Fascinate Inline;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(0, 0, 0, 0.94);
+}
+
+#rectangle2 {
+    position: absolute;
+    width: 182px;
+    height: 43px;
+    left: 250px;
+    top: 400px;
+
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p {
+    position: absolute;
+    width: 140px;
+    height: 33px;
+    left: 270px;
+    top: 392px;
+
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(0, 0, 0, 0.91);
+}
+
+#rectangle3 {
+    position: absolute;
+    width: 182px;
+    height: 41px;
+    left: 249px;
+    top: 600px;
+
+    background: rgba(229, 229, 229, 0.87);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p2 {
+    position: absolute;
+    width: 163px;
+    height: 46px;
+    left: 257px;
+    top: 610px;
+    
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#rectangle4 {
+    position: absolute;
+    width: 460px;
+    height: 47px;
+    left: 525px;
+    top: 395px;
+    
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+
+#rectangle5 {
+    position: absolute;
+    width: 460px;
+    height: 41px;
+    left: 525px;
+    top: 600px;
+    
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
