@@ -102,7 +102,7 @@ p2 {
     color: rgba(0, 0, 0, 0.9);
 }
 
-#rectangle4 {
+/* #rectangle4 {
     position: absolute;
     width: 460px;
     height: 47px;
@@ -111,9 +111,9 @@ p2 {
     
     background: #FFFFFF;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);   
-}
+} */
 
-#rectangle5 {
+/* #rectangle5 {
     position: absolute;
     width: 460px;
     height: 41px;
@@ -122,6 +122,46 @@ p2 {
     
     background: #FFFFFF;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+} */
+
+#input4{
+    position: absolute;
+    width: 460px;
+    height: 41px;
+    left: 525px;
+    top: 395px;
+    
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(0, 0, 0, 0.91);
+}
+
+#input5{
+    position: absolute;
+    width: 460px;
+    height: 41px;
+    left: 525px;
+    top: 600px;
+    
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(0, 0, 0, 0.91);
 }
 
 a{
